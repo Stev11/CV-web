@@ -1,31 +1,35 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <title>Rafał Spilok</title>
+    <title>Hi. My name is Rafał Spilok and this is my resume page.</title>
     <meta charset="UTF-8" />
     <meta typename="keywords" content="rafał spilok cv resume html css php Jscript MySQL" />
-    <meta typename="description" content="Witaj. Nazywam się Rafał Spilok, a ta strona zawiera moje CV." />
-    <link rel="stylesheet" type="text/css" media="all" href="style.css" />
+    <meta typename="description" content="Hi. My name is Rafał Spilok and this is my resume page." />
     <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" media="all" href="style.css" />
   </head>
   <body>
     <div id="main">
       <div id="header">
-        <div id="headerMonogram">
-          <img id= "monogram" src="img/MonogramSimple.png" alt="Monogram">
-        </div>
+        <img id= "monogram" src="img/MonogramSimple.png" alt="Monogram">
         <div id="headerName">
           <p>Rafał Marek Piotr Spilok</p>
         </div>
         <div id="headerMenu">
           <div class="headerMenuItem" id="headerMenuDE">
-            <img class="headerMenuFlag" id="headerMenuFlagDE" src="img/headerMenuFlagDE.png" alt="FlagDE">
+            <a href="CV-de">
+            <img class="headerMenuFlag" id="headerMenuFlagDE" src="img/headerMenuFlagDE.png" onmouseover="flag(3)" onmouseout="flag(0)" alt="DE">
+            </a>
           </div>
           <div class="headerMenuItem" id="headerMenuEN">
-            <img class="headerMenuFlag" id="headerMenuFlagEN" src="img/headerMenuFlagEN.png" alt="FlagEN">
+            <a href="CV-en">
+            <img class="headerMenuFlag" id="headerMenuFlagEN" src="img/headerMenuFlagEN.png" onmouseover="flag(2)" onmouseout="flag(0)" alt="EN">
+            </a>
           </div>
           <div class="headerMenuItem" id="headerMenuPL">
-            <img class="headerMenuFlag" id="headerMenuFlagPL" src="img/headerMenuFlagPL.png" alt="FlagPL">
+            <a href="CV-pl">
+            <img class="headerMenuFlag" id="headerMenuFlagPL" src="img/headerMenuFlagPL.png" onmouseover="flag(1)" onmouseout="flag(0)" alt="PL">
+            </a>
           </div>
           <div class="headerMenuItem" id="headerMenuFacebook">
           </div>
@@ -53,10 +57,14 @@
             <div class="contentRightMenuItem" id="contentRightMenuCourses" onclick="navigation(4)">
               </br>Courses
             </div>
-            <div class="contentRightMenuItem" id="contentRightMenuSkills" onclick="navigation(5)">
+            <div class="contentRightMenuItem" id="contentRightMenuComputerSkills" onclick="navigation(5)">
+            </br>Computer
+            Skills
+            </div>
+            <div class="contentRightMenuItem" id="contentRightMenuSkills" onclick="navigation(6)">
               </br>Skills
             </div>
-            <div class="contentRightMenuItem" id="contentRightMenuHobby" onclick="navigation(6)">
+            <div class="contentRightMenuItem" id="contentRightMenuHobby" onclick="navigation(7)">
             </br>Hobbies
             </div>
           </div>
@@ -72,31 +80,66 @@
               During my time here I learned how to understand different English accents. Those are expecially hard to understand if you are talkin with someone over the phone</br>
               I used Active Directory alot. Also I got to know Linux from a different perspective.</br>
               One of the most richful experiences for me was to discover ITIL - previously I did not realize that such a thing existed.</br>
-              Naturally it is a most useful code and it simplifies IT services delivery.
+              Naturally it is most useful and it simplifies IT services delivery.</br>
               </br>
-              08.2015 - 08.2015</br>
+              <u>08.2015 - 08.2015</u></br>
               <b>Internship</b></br>
               Starostwo Powiatowe in Mikołów</br>
               Powiatowy Ośrodek Dokumentacji Geodezyjno - Kartograficznej</br>
               Duties: applicants assistance; actualization of numerical maps and PODGK data</br>
               </br>
-              07.2014 - 07.2014</br>
+              <u>07.2014 - 07.2014</u></br>
               <b>Part time job</b></br>
               Pol-Am-Pack S.A.</br>
               Huta Szkła Orzesze</br>
               manual labor at production line
             </div>
             <div id="contentRightEducation" class="contentRightSubpage">
-
+              <u>10.2012 - 07.2016</u></br>
+              <b>Bachelor level Studies</b> at the Wrocław University of Technology</br>
+              Faculty Geoinżynierii, Górnictwa i Geologii</br>
+              in the main field of studies:</br>
+              Geodesy and Cartography</br>
+              the professional degree: inżynier</br>
+              </br>
+              <u>09.2014 - 05.2015</u></br>
+              <b>Exchange studies via Erasmus+ in Finland</b> at Aalto University School of Engineering</br>
+              in the degree programme of Geoinformatics</br>
+              </br>
+              <u>09.2009 - 4.2012</u></br>
+              <b>Upper secondary school</b> - General Secondary School No. I in Rybnik</br>
+              Faculty: Mathematics - Physics</br>
+              matura exam (2012)
             </div>
             <div id="contentRightCourses" class="contentRightSubpage">
-
+              <u>11.2016 - 11.2016</u></br>
+              <b>Website developer</b> Moja Strefa Wpływu training course</br>
+              by SENSE consulting sp. z o. o.</br>
+              Content: HTML, CSS, PHP, JavaScript, MySQL</br>
+              </br>
+              <u>10.2016 - 10.2016</u></br>
+              <b>Interpersonal Skills</b> Moja Strefa Wpływu training course</br>
+              by SENSE consulting sp. z o. o.</br>
+              Content: time management; team work; assertiveness</br>
+            </div>
+            <div id="contentRightComputerSkills" class="contentRightSubpage">
+                  I have good interpersonal communication skills, especially in international groups, thanks to my Erasmus exchange in Finland.</br>
+              </br>q</br>
+            </br>d</br>
+            </br>s</br>
+            </br>a
             </div>
             <div id="contentRightSkills" class="contentRightSubpage">
-
+                  I have good interpersonal communication skills, especially in international groups, thanks to my Erasmus exchange in Finland.</br>
+              </br>Technology studies taught me how to deliver projects and how to be a good team player – divide duties, be responsible for entrusted tasks and work under the deadline.</br>
+              </br>Orderliness, determination and creativity are traits which I use to develop my hobbies and interests.</br>
+              </br>I am a quick learner which proved to be useful at my current job where I had to understand and use a lot of new knowledge.</br>
+              </br>I have a driving license.
             </div>
             <div id="contentRightHobby" class="contentRightSubpage" >
-
+              </br>Fantasy literature</br>
+              </br>geoinformatics</br>
+              </br>genealogy and history
             </div>
           </div>
         </div>

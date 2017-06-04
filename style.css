@@ -19,9 +19,10 @@
   }
   #monogram
   {
+    float:left;
     max-height:100%;
-    padding-left:10%;
-    padding-right:10%;
+    padding-left:1%;
+    padding-right:5%;
   }
   #headerInitials
   {
@@ -59,6 +60,8 @@
   {
     max-height:100%;
     margin: 25% 25% 0% 0%;
+    opacity: 0.7;
+    text-align:center;
   }
   #content
   {
@@ -87,23 +90,24 @@
   }
   .contentRightMenuItem
   {
-    line-height:10pt;
     float:left;
-    width:15%;
+    width:14%;
     height:100%;
     background-color:rgba(0, 0, 0, 0.5);
     text-align: center;
     font-family: arial;
-    font-size: 1.2vw;
     color:white;
+    cursor:default;
+    font-size: 15px;
+    line-height:10px;
   }
   .contentRightMenuItem:hover
   {
-    background-color:rgba(255, 255, 255, 0.5);
+    background-color:rgba(255, 255, 255, 0.5) !important;
   }
   #contentRightMenuAbout
   {
-    margin-left: 5%;
+    margin-left: 1%;
   }
   .contentRightSubpage
   {
@@ -112,6 +116,10 @@
     padding-top: 5%;
     padding-left: 5%;
     float"right;
+  }
+  .contentRightSubpage
+  {
+    display:none;
   }
   #contentRightAbout
   {
@@ -126,6 +134,10 @@
     display:none;
   }
   #contentRightCourses
+  {
+    display:none;
+  }
+  #contentRightComputerSkills
   {
     display:none;
   }
